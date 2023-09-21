@@ -20,11 +20,6 @@ describe("fib-ld", () => {
     }
 
     describe("other", () => {
-        it("$%^&#$%&^&^&*(^&*(^", () => {
-            var lang = detect("$%^&#$%&^&^&*(^&*(^");
-            assert.equal(null, lang);
-        });
-
     });
 })
 

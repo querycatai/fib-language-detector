@@ -1,9 +1,9 @@
 {
   "name": "fib-language-detector",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "lib/index.js",
   "repository": "https://github.com/xicilion/fib-language-detector",
   "dependencies": {
-    "langdetect": "^0.2.1"
+    "@unicode/unicode-15.1.0": "^1.5.2"
   }
 }

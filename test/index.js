@@ -12,7 +12,7 @@ describe("fib-ld", () => {
 
             txts.forEach(txt => {
                 it(txt, () => {
-                    var lang1 = detect(txt);
+                    var lang1 = detect(txt, "zh");
                     assert.equal(l, lang1);
                 });
             });
